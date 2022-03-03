@@ -24,3 +24,4 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: taofang2021/checkout@v3.0.1
     
+      - run: npm run test
